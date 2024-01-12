@@ -1,0 +1,29 @@
+.headers {
+    color: #3333bb;
+}
+h2.headers {
+    text-decoration: underline;
+}
+h3.headers {
+    text-decoration: none;
+}
+
+/* h2, h3 {
+    color: #3333bb;
+} */
+
+.custom-block {
+    background-color: #aca;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid black;
+    margin-top: 3px;
+}
+
+.custom-block h2 {
+    color: grey;
+}
+
+.custom-block p {
+    color: green;
+}
