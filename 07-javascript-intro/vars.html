@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+        const var1 = 15;
+        const var2 = '15';
+        console.log(var1 == var2)
+        console.log(var1 === var2)
+        console.log(var1 + var2)
+        const s1 = 'text'
+        const s2 = ''
+        const n1 = 15
+        const n2 = 0
+        const c = undefined
+        const d = null
+
+        if (s1) {
+            console.log('it is true')
+        } else {
+            console.log('it is false')
+        }
+        const name = 'John'
+        const age = 21
+        let str = `${name} is ${age} years old`
+        console.log(str)
+        function fn1(num1, num2) {
+            return arg1 + arg2
+        }
+
+        const fn2 = (num1, num2) => {
+            return arg1 + arg2
+        }
+        let obj = new String()
+        console.log(obj)
+        let person = {
+            name: 'John',
+            age: 21
+        }
+        console.log(`I'm ${person.name}, ${person.age} years old`)    
+        const Person = class {
+            constructor (name, age) {
+                this.name = name
+                this.age = age
+            }
+            about() {
+                console.log(`I'm ${this.name}, ${this.age} years old`)
+            }
+        }
+
+        const aPerson = new Person('John', 21)
+        aPerson.about()
+    </script>
+</head>
+
+<body>
+    Empty page
+</body>
+
+</html>
